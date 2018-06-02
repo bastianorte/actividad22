@@ -1,4 +1,5 @@
 class PagesController < ApplicationController
-  def index
+  def landing
+    @students = Student.all
   end
 end

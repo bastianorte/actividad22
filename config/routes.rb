@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'pages/landing'
   get 'students/index'
   root 'students#index'
   resources :students
