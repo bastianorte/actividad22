@@ -10,6 +10,7 @@
 
         <%= student.name %>
         <%= student.age %>
+        <%= student.email %>
         <%= link_to 'Show', student, class:'btn btn-primary' %>
         <%= link_to 'Edit', edit_student_path(student), class:'btn btn-secondary' %>
         <%= link_to 'Destroy', student, method: :delete, data: { confirm: 'Are you sure?' }, class:'btn btn-warning' %>
